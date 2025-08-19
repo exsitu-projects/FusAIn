@@ -1,5 +1,11 @@
 # FusAIn
 
+## UPDATES:
+We’re currently working on building a new tool. The code for this project will be released around September–October 2025. Thanks for your patience!
+
+P.S. The implementation is quite straightforward—you can easily replicate it by referring to the technical implementation of our publication in the meantime.
+
+## What is FusAIn?
 FusAIn is a GenAI visual
 prompt composition tool that lets creators interact with personalized
 pens by loading them with visual objects or attributes such as color or
