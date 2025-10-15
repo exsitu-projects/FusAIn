@@ -94,5 +94,14 @@ The main canvas uses on HTML5 Pointer Events to detect pen or mouse input. Howev
     location = {Yokohama, Japan}  
 }  
 ```
-## License
-This project is licensed under the MIT License, see the [LICENSE.txt](LICENSE) file for details.
+
+### License
+This repository contains both original code (licensed under MIT) and portions derived from AGPL-licensed projects.
+
+- Original FusAIn code — Licensed under the [MIT License](LICENSE).
+- Portions derived from:
+    - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+    - [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
+
+  These portions are licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
+
