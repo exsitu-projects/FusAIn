@@ -19,7 +19,7 @@ Generation panel with style lock, and can be added to (8) Image gallery.</figcap
 This repository includes stable diffusion webui as a Git submodule: [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui), located in the folder `stable-diffusion-webui`. This is to leverage its easy configuration on backend image generation model and capabilities with stable diffusion and ControlNet using its [API](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API). 
 
 
-### 1. (Option A) Cloning the repository with submodule and configuring ControlNet
+### 1. (Original) Clone the repository with submodule and configure ControlNet
 
 To clone this repository **with the submodule**, run:
 
@@ -44,7 +44,7 @@ You can `set COMMANDLINE_ARGS=--api` at webui-user.bat on Windows to look at the
 
 However, as models continue to evolve rapidly, you are encouraged to explore [other models](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features) or [other compatible ControlNets](https://github.com/Mikubill/sd-webui-controlnet/wiki/Model-download), and configure their parameters inside `stores/canvasStore.js` by referring to [API documentation](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API) and [ControlNet Guide](https://stable-diffusion-art.com/controlnet/).
 
-### 1. (Option B) Using a Custom Backend 
+### 1. (Alternative) Use a Custom Backend 
 You can operate FusAIn in a frontend-only mode to integrate with any ControlNet-compatible Generative AI model. To do this, clone the repository without the backend submodule and perform the following configurations:
 
 #### Payload Configuration
